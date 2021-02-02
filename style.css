@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,100&display=swap");
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./Heart.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 100vh;
+  font: "Poppins", sans-serif;
+  margin: 0 0 0 1%;
+}
+
+h1{
+  font-size: 5rem;
+  font-weight: normal;
+  color: rgb(155, 19, 32);
+}
+
+.countdown-container{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0;
+}
+
+.big-text{
+  font-size: 5rem;
+  font-weight: bolder;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.2rem;
+}
+
+a {
+ color: inherit;
+ 
+}
+ a:hover {
+    cursor: pointer;
+      }
+
+.footer{
+  display: table-footer-group;
+  text-align: center;
+  margin: 10% 25% 0 25% ;
+}
